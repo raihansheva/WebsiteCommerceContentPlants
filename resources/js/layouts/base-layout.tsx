@@ -18,17 +18,23 @@ export default function BaseLayout({ children }: PropsWithChildren) {
                             <Link className="text-sm hover:underline" href="/">
                                 Home
                             </Link>
-                            <Link
+                            <a
                                 className="text-sm hover:underline"
-                                href="/about"
+                                href="#about"
                             >
                                 About
-                            </Link>
+                            </a>
                             <Link
                                 className="text-sm hover:underline"
                                 href="/about"
                             >
                                 Artikel
+                            </Link>
+                            <Link
+                                className="text-sm hover:underline"
+                                href="/about"
+                            >
+                                Shop
                             </Link>
                             <Link
                                 className="text-sm hover:underline"
@@ -42,12 +48,12 @@ export default function BaseLayout({ children }: PropsWithChildren) {
                             >
                                 Order
                             </Link>
-                            <Link
+                            {/* <Link
                                 className="text-sm hover:underline"
                                 href="/about"
                             >
                                 Contact
-                            </Link>
+                            </Link> */}
                         </div>
                         <button
                             id="menu-btn"
@@ -79,17 +85,23 @@ export default function BaseLayout({ children }: PropsWithChildren) {
                             >
                                 Home
                             </Link>
-                            <Link
+                            <a
                                 className="w-full py-4 text-center hover:bg-[#355F3E] hover:font-bold hover:text-white"
-                                href="/about"
+                                href="#about"
                             >
                                 About
-                            </Link>
+                            </a>
                             <Link
                                 className="w-full py-4 text-center hover:bg-[#355F3E] hover:font-bold hover:text-white"
                                 href="/contact"
                             >
                                 Artikel
+                            </Link>
+                            <Link
+                                className="w-full py-4 text-center hover:bg-[#355F3E] hover:font-bold hover:text-white"
+                                href="/contact"
+                            >
+                                Shop
                             </Link>
                             <Link
                                 className="w-full py-4 text-center hover:bg-[#355F3E] hover:font-bold hover:text-white"
@@ -103,12 +115,12 @@ export default function BaseLayout({ children }: PropsWithChildren) {
                             >
                                 Order
                             </Link>
-                            <Link
+                            {/* <Link
                                 className="w-full py-4 text-center hover:bg-[#355F3E] hover:font-bold hover:text-white"
                                 href="/contact"
                             >
                                 Contact
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </header>
